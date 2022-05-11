@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+nav {
+    padding: 20px;
+}
+
+main {
+    background-color: rgb(195, 198, 220);
+}
+
+footer {
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+article {
+    padding: 20px;
+}
+
+h2 {
+    padding: 20px;
+}
+
+.form-input-text {
+    border-radius: 10px;
+    width: 300px;
+}
+
+.form-textarea {
+    border-radius: 10px;
+}
+
+.form-submit-button {
+    background: #023055;
+    color: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.form-submit-button:hover {
+    background: #fff;
+    color: #023055;
+    border-radius: 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+ul {
+    border-radius: 20px;
+    list-style-type: none;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: rgb(195, 198, 220);
+    color: white;
+}
